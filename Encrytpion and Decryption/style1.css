@@ -1,0 +1,53 @@
+body{
+    background-image: url(b1.jpg);
+    background-color: #151313;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    text-shadow: rgb(169, 169, 169);
+    text-decoration-color: aliceblue;
+    
+
+}
+
+
+.encryption{
+    position:  absolute;
+    top: 20%;
+    left: 33%;
+    width: 460px;
+    border: 2px solid #3c8a8a;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(58, 148, 148, 0.3);
+    color:  #fff;
+    border-radius: 12px;
+    padding-top: 80px;
+}
+
+#file::-webkit-file-upload-button{
+    visibility:  hidden;
+  }
+
+
+  ::placeholder {
+    color: #1c1a1a; /* Replace with your desired color */
+  }
+
+
+ #file,input[type = button], #textEncryption,input[type= text],#passEncryption,input[type=password],#passDecryption,input[type=password]{
+    width: 90%;
+    height: 70px;
+    margin-bottom: 20px;
+    font-size:  17px;
+    text-decoration: #0a0909;
+    text-align: center;
+    text-decoration-color: rgb(25, 26, 26);
+    border: 1px solid #1e1d1d;
+    letter-spacing:  2px;
+    border-radius: 5px;
+    background-color: rgba(62, 58, 58, 0.2);
+    color: #fff;
+    transition: .5s all;
+}
+

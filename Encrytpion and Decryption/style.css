@@ -1,0 +1,42 @@
+body{
+    background-image: url(b1.jpg);
+    background-color: #151313;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    text-shadow: rgb(169, 169, 169);
+    text-decoration-color: aliceblue;
+    
+
+}
+
+.main{
+    position:  absolute;
+    top: 20%;
+    left: 33%;
+    width: 460px;
+    border: 2px solid #4fa1a1;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(47, 201, 193, 0.3);
+    color:  #fff;
+    border-radius: 12px;
+    padding-top: 80px;
+}
+
+
+#encryption,input[type = button], #decryption,input[type = button]{
+    width: 90%;
+    height: 70px;
+    margin-bottom: 20px;
+    font-size:  17px;
+    opacity: 1;
+    text-align: center;
+    text-decoration-color: rgb(13, 13, 14);
+    border: 1px solid #0a0a0b;
+    letter-spacing:  2px;
+    border-radius: 5px;
+    background-color: rgba(208, 219, 216, 0.2);
+    color: #fff;
+    transition: .5s all;
+}

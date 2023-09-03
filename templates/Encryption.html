@@ -1,0 +1,22 @@
+ <!DOCTYPE html>
+ <html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static',filename='style1.css')}}" >
+    </head>
+
+    <body>
+        <center>
+            <div class=" encryption">
+                <h1>
+                    Encryption
+                </h1>
+                <form action="/content" method="post" enctype="multipart/form-data">
+                    <input type="text" style="color : white" placeholder="Enter the text you Want to Encrypt" id="textEncryption" name="msg">
+                    <input type="file" name="image" id="file" >  
+                    <input type="password" style="color : white" placeholder="Enter the Password" id="passEncryption" name="pw"> 
+                    <input type = "submit" value="Upload Image" id="uploading">
+                </form>
+            </div>
+        </center>
+    </body>
+ </html>
